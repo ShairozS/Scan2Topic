@@ -65,7 +65,7 @@ def image_to_text(imglist, ndocs=10):
     headers = {
         # Request headers
         'Content-Type': 'application/octet-stream',
-        'Ocp-Apim-Subscription-Key': '89279deb653049078dd18b1b116777ea',
+        'Ocp-Apim-Subscription-Key': 'YOUR_KEY_HERE',
     }
 
     params = urllib.parse.urlencode({
